@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacework_Rozikulyeva1</title>
+</head>
+<body>
+    <p>При обнаружении script async src="..." браузер не останавливает обработку страницы, а спокойно работает дальше. Когда скрипт будет загружен – он выполнится.</p>
+    <p>Cкрипт с defer сработает, когда весь HTML-документ будет обработан браузером.</p>
+
+    <script>
+        // Task №1
+        var celsius =  prompt ("Введите градусы по Цельсию");
+        celsius=parseInt(celsius);
+        var fahrenheit = 9 / 5 * celsius + 32;
+        alert (celsius + " градусов по Цельсию = " + fahrenheit 
+        + " градусов по Фарингейту");
+        // Task №2 
+        var name = "Василий";
+        var admin = name;
+        console.log (admin);
+         // Task №3
+         console.log (1000 + "108");
+    </script>
+</body>
+</html>
